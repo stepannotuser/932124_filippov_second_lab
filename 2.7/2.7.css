@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.purple-static {
+    position: static;
+    background-color: blueviolet;
+    width: 160px;
+    height: 120px;
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.red-relative {
+    position: relative;
+    background-color: darkred;
+    width: 160px;
+    height: 90px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.yellow-relative {
+    position: relative;
+    background-color: peru;
+    width: 160px;
+    height: 90px;
+    color: white;
+    left: 25px;
+    bottom: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.pink-relative {
+    position: relative;
+    background-color: indianred;
+    width: 440px;
+    height: 280px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.darkpurple-absolute {
+    position: absolute;
+    background-color: indigo;
+    width: 240px;
+    height: 140px;
+    top: 70px;
+    right: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.green-fixed {
+    position: fixed;
+    background-color: green;
+    width: 110px;
+    height: 90px;
+    right: 15px;
+    bottom: 15px;
+    color: white;
+    padding: 10px;
+}

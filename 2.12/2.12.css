@@ -1,0 +1,26 @@
+body
+{
+    height: 100%;
+}
+
+.container {
+    border: 1px solid green;
+    background-color: aqua; 
+}
+
+.list-cell
+{
+    padding: 10px 0px 10px 0px;
+    margin-right: 10px;
+    min-width: 30%;
+    background-color: bisque; 
+    height: fit-content;
+    float: left;
+}   
+
+.text-cell
+{
+    display: inline-block;
+    background-color: gray; 
+    max-width: 69%;
+}

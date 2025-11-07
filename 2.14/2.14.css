@@ -1,0 +1,53 @@
+html,
+body
+{
+    height: 100%;
+}
+
+.container {
+    border: 1px solid green;
+    background-color: aqua; 
+    display: flex;
+}
+
+.list-cell
+{
+    padding: 5px 0px 5px 0px;
+    background-color: bisque; 
+    height: fit-content;
+    flex: 30% 1 0;
+}   
+
+.text-cell
+{
+    display: inline-block;
+    background-color: darkgray; 
+    flex: auto 1 1;
+}
+
+p
+{
+    margin: 0px;
+}
+
+@media (max-width: 500px) {
+    .container
+    {
+        flex-direction: column;
+    }
+    
+    .list-cell
+    {
+        flex: auto 0 0;
+        margin: 20px 0px 20px 0px;
+        padding: 0px;
+    }
+
+    ul 
+    {
+        display: flex;
+        gap: 5px;
+        list-style: none;
+        margin: 0px;
+    }
+}

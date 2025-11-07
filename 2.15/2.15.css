@@ -1,0 +1,13 @@
+.inline-box
+{
+    display: inline-block;
+    background-color: aquamarine;
+    margin: 30px;
+    width: 150px;
+    height: 80px;
+}
+
+.regular-box
+{
+    background-color: bisque;
+}

@@ -1,0 +1,53 @@
+html,
+body
+{
+    padding: 0;
+    border: 0;
+    min-height: 100vh;
+}
+
+.page-wrapper
+{
+    min-height: 100vh;
+}
+
+.content-area
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;    
+}
+
+.flex-container {
+    display: flex;
+}
+
+.sidebar-menu 
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: peachpuff; 
+    box-sizing: border-box;
+}   
+
+.navigation-panel 
+{
+    flex: 160px 0 0;
+    background-color: cyan; 
+}
+
+.main-content 
+{
+    background-color: dimgray; 
+}
+
+.page-footer
+{
+    background-color: lime;
+    min-height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}

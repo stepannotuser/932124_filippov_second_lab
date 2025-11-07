@@ -1,0 +1,14 @@
+.container
+{
+    background-color: blue;
+    color:white;
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img
+{
+    margin: 0 0 15px 15px; 
+    float: right;
+}
